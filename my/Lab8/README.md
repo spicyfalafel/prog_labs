@@ -7,6 +7,6 @@ Features:
 * MVC model
 * Multi-threaded program
 
-![Auth](/auth.png)
-![Main1](/main1.png)
-![Main2](/main2.png)
+![Auth](/my/Lab8/auth.png)
+![Main1](/my/Lab8/main1.png)
+![Main2](/my/Lab8/main2.png)
