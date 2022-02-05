@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<StackPane fx:id="stackPane" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+           prefWidth="745" prefHeight="380">
+
+    <ImageView fx:id="dragon_bad">
+        <StackPane.margin>
+            <Insets right="400"/>
+        </StackPane.margin>
+    </ImageView>
+    <ImageView fx:id="dragon_good">
+        <StackPane.margin>
+            <Insets left="400"/>
+        </StackPane.margin>
+    </ImageView>
+    <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="100" minWidth="300"
+          prefHeight="200.0" prefWidth="600" spacing="5">
+        <Label text="%login.text"/>
+        <TextField fx:id="loginTextField" maxHeight="10" maxWidth="150" promptText="Your login"/>
+        <Label text="%password.text"/>
+        <PasswordField fx:id="passwordField" maxHeight="10" maxWidth="150" promptText="Your password"/>
+        <Button fx:id="buttonLogin" text="%login.text"/>
+        <Button fx:id="buttonRegister" text="%register.text"/>
+        <Text fx:id="labelMessage" textAlignment="CENTER" wrappingWidth="200"/>
+    </VBox>
+    <SplitMenuButton fx:id="languageSplitMenu" text="%language.text">
+        <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                <Image url="/images/icons/lang_icon.png"/>
+            </ImageView>
+        </graphic>
+        <items>
+            <MenuItem fx:id="russianLanguageMenuItem" text="%russian.text"/>
+            <MenuItem fx:id="estonianLanguageMenuItem" text="%estonian.text"/>
+            <MenuItem fx:id="swedenLanguageMenuItem" text="%swede.text"/>
+            <MenuItem fx:id="spanishLanguageMenuItem" text="%spain.text"/>
+        </items>
+    </SplitMenuButton>
+</StackPane>

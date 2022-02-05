@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>src.managers.FileManager</OriginalElement>
+  <nodes>
+    <node x="4767.756061676091" y="4628.0">src.server.Server</node>
+    <node x="0.0" y="4728.0">src.product.Condition</node>
+    <node x="4394.9997645951225" y="4074.0">src.start.Execute</node>
+    <node x="4812.0" y="2448.0">src.exceptions.RecursiveScript</node>
+    <node x="996.4103695856984" y="22.0">src.product.eyes.Color</node>
+    <node x="2393.7853695856984" y="3899.0">src.commands.Clear</node>
+    <node x="1036.5353695856984" y="3899.0">src.commands.RemoveGreaterKey</node>
+    <node x="2549.7853695856984" y="3899.0">src.commands.Exit</node>
+    <node x="3077.1603695856984" y="850.0">src.product.Product</node>
+    <node x="4352.469691619605" y="2402.0">src.managers.StringManager</node>
+    <node x="3630.125" y="3866.0">src.commands.ExecuteScript</node>
+    <node x="4636.0" y="2424.5">src.commands.Command</node>
+    <node x="565.125" y="3888.0">src.commands.Insert</node>
+    <node x="3211.7853695856984" y="3910.5">src.commands.MinByCreationDate</node>
+    <node x="2701.5353695856984" y="406.0">src.product.Coordinates</node>
+    <node x="2442.5353695856984" y="395.0">src.product.UnitOfMeasure</node>
+    <node x="10.5" y="3923.0">src.exceptions.CommandNotFoundException</node>
+    <node x="582.4103695856984" y="22.0">src.product.hair.Color</node>
+    <node x="1255.5353695856984" y="3899.0">src.commands.CountByOwner</node>
+    <node x="3658.4997645951225" y="3317.0">src.managers.ConsoleManager</node>
+    <node x="4604.1664312617895" y="3284.0">src.managers.FileManager</node>
+    <node x="3206.2853695856984" y="3405.0">src.commands.AbstractCommand</node>
+    <node x="4733.756061676091" y="4346.0">src.server.EchoServer</node>
+    <node x="2081.7853695856984" y="3877.0">src.commands.Save</node>
+    <node x="3025.7853695856984" y="3910.5">src.commands.Show</node>
+    <node x="2222.5353695856984" y="362.0">src.product.Person</node>
+    <node x="2237.7853695856984" y="3899.0">src.commands.Help</node>
+    <node x="2865.166431261789" y="1452.0">src.managers.HashTableManager</node>
+    <node x="1643.5353695856984" y="3888.0">src.commands.Update</node>
+    <node x="311.5" y="3899.0">src.commands.RemoveLowerKey</node>
+    <node x="3789.6603695856984" y="1652.0">src.exceptions.InvalidArgument</node>
+    <node x="2705.7853695856984" y="3910.5">src.commands.SumOfPrice</node>
+    <node x="1887.7853695856984" y="3877.0">src.commands.ReplaceIfLowe</node>
+    <node x="1449.5353695856984" y="3888.0">src.commands.RemoveKey</node>
+    <node x="2869.7853695856984" y="3899.0">src.commands.Info</node>
+    <node x="781.4103695856984" y="11.0">src.product.Country</node>
+    <node x="2110.7853695856984" y="0.0">src.product.Location</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="src.commands.ReplaceIfLowe" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="58.0" y="-61.0" />
+      <point x="2032.7853695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.Clear" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-34.0" y="-39.0" />
+      <point x="2427.7853695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.RemoveGreaterKey" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="66.33333333333348" y="-39.0" />
+      <point x="1202.3687029190319" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.Info" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-34.0" y="-39.0" />
+      <point x="2903.7853695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.AbstractCommand" target="src.commands.Command" relationship="REALIZATION">
+      <point x="0.0" y="-83.0" />
+      <point x="3322.2853695856984" y="3132.0" />
+      <point x="4672.0" y="3132.0" />
+      <point x="-36.0" y="38.5" />
+    </edge>
+    <edge source="src.commands.MinByCreationDate" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-50.0" y="-27.5" />
+      <point x="3261.7853695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.RemoveKey" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="58.0" y="-50.0" />
+      <point x="1594.5353695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.RemoveLowerKey" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="62.33333333333326" y="-39.0" />
+      <point x="467.33333333333303" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.Exit" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-34.0" y="-39.0" />
+      <point x="2583.7853695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.Help" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-34.0" y="-39.0" />
+      <point x="2271.7853695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.SumOfPrice" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-36.0" y="-27.5" />
+      <point x="2741.7853695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.Insert" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="58.0" y="-50.0" />
+      <point x="710.125" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.Save" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="34.0" y="-61.0" />
+      <point x="2183.7853695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.Show" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-34.0" y="-27.5" />
+      <point x="3059.7853695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.CountByOwner" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="58.0" y="-39.0" />
+      <point x="1400.5353695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.Update" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="58.0" y="-50.0" />
+      <point x="1788.5353695856984" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+    <edge source="src.commands.ExecuteScript" target="src.commands.AbstractCommand" relationship="GENERALIZATION">
+      <point x="-65.25" y="-72.0" />
+      <point x="3651.875" y="3824.0" />
+      <point x="2095.071739642184" y="3824.0" />
+      <point x="2095.071739642184" y="3804.0" />
+      <point x="3264.2853695856984" y="3804.0" />
+      <point x="-58.0" y="83.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.39124768710661845" showDependencies="false" x="1504.4944696029502" y="400.150855546985" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

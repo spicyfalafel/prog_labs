@@ -1,0 +1,19 @@
+
+
+
+
+.menu-item {
+    -fx-padding: 3 0 3 0
+}
+#labelMessage{
+    -fx-font-size: 16;
+    -fx-text-fill: #202340;
+    -fx-font-style: oblique;
+    -fx-font-weight: bolder;
+}
+.label{
+    -fx-font-size: 16;
+    -fx-text-fill: #202340;
+    -fx-font-style: oblique;
+    -fx-font-weight: bolder;
+}

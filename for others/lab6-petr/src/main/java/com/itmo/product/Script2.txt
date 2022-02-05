@@ -1,0 +1,3 @@
+execute_script
+src\com.itmo.product\Script.txt
+exit
